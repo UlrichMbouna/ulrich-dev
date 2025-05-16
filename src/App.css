@@ -4,7 +4,7 @@ body {
 }
 
 .cardstyle{
-  clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+  /* clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%); */
 }
 
 .card-img-oblique {
@@ -21,4 +21,26 @@ body {
   height: 100%;
   object-fit: cover;
   clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+@media (max-width: 768px) {
+
+  .clip-path-image{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    height: auto;
+  }
+ 
+}
+
+.carousel-item {
+  margin-bottom: 15px;
+}
+body {
+  background: #f3f5f7;
+}
+.width350{
+  width: 320px !important;
+
+}
+.card-has-bg{
+  height: 400px !important;
 }
