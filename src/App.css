@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.cardstyle{
+  clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.card-img-oblique {
+  clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+  object-fit: cover;
+}
+.img-container {
+  flex: 1 1 50%;
+  overflow: hidden;
+}
+
+.img-oblique {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
