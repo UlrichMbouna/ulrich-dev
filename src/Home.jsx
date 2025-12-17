@@ -5,6 +5,15 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 // import imgul2 from '../public/assets/images/imgul2.png';
 const Home = () => {
+
+    useEffect(() => {
+        const isDirectAccess = window.location.href === 'https://ulrich-mbouna.vercel.app/';
+        if (isDirectAccess) {
+          console.log("L'utilisateur est arrivé directement sur la page d'accueil");
+        }
+      }, []);
+
+
     return (
         <div classname="container" style={{ fontFamily: 'poppins', background: "#f3f5f7" }}>
             <nav className="navbar navbar-expand-lg bg-body-tertiary" style={{ background: '#a01051' }}>
