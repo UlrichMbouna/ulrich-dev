@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {useEffect} from 'react';
 import './App.css';
 import { auto } from '@popperjs/core';
 import '@fortawesome/fontawesome-free/css/all.min.css';
