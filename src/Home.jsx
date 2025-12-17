@@ -7,9 +7,8 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 const Home = () => {
 
     useEffect(() => {
-        const isDirectAccess = window.location.href === 'https://ulrich-mbouna.vercel.app/';
-        if (isDirectAccess) {
-          console.log("L'utilisateur est arrivé directement sur la page d'accueil");
+        if (window.location.href !== 'https://ulrich-mbouna.vercel.app/') {
+          window.location.href = 'https://ulrich-mbouna.vercel.app/';
         }
       }, []);
 
